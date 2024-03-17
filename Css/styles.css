@@ -50,7 +50,6 @@
     flex-direction: row;
     justify-content: space-between;
     margin-block: 40px;
-    flex-wrap: wrap;
 }
 
 .button-group button{
@@ -145,8 +144,12 @@
   }
   @media screen and (max-width: 992px) {
     /* Add your styles for smaller screens here */
-    .container {
-      
+    .button-group{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
     }
 }
 
