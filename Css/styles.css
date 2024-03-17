@@ -6,10 +6,10 @@
 
 .section-selection {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 80%;
-    margin: auto;
+    margin-inline: auto;
     height: 100vh;
 }
 
@@ -17,8 +17,9 @@
     background-color: transparent !important;
     font-size: 45px;
     font-weight: 500;
-    margin-inline:  auto;
-    border: none; /* Changed margin to use shorthand for better compatibility */
+    margin-right:auto;
+    border: none;
+ /* Changed margin to use shorthand for better compatibility */
 }
 
 .section-selection::after {
@@ -37,8 +38,9 @@
     margin:5% auto;
 }
 .main-homePage h1{
-    font-size: 45px;
+    font-size: 60px;
     margin-bottom: 50px;
+    font-weight: 700;
 }
 .main-homePage p{
     font-size: 25px;
@@ -92,7 +94,42 @@
     margin-bottom: 0;
     font-size: 18px;
 }
+.btn-sections{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.btn-sections .col-lg-3{
+    margin-inline: auto;
+}
+.circle {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    margin-inline: auto;
+  }
+  
+  .arrow {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid white;
+  }
+  
+  .text {
+    color: white;
+    font-size: 14px;
+    margin-top: 5px;
+  }
 
 
 
