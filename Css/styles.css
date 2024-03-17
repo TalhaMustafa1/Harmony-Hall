@@ -50,7 +50,9 @@
     flex-direction: row;
     justify-content: space-between;
     margin-block: 40px;
+    flex-wrap: wrap;
 }
+
 .button-group button{
     background-color: black;
     color: white;
@@ -61,7 +63,7 @@
 }
 .card {
     position: relative;
-    width: 300px; /* Adjust width as needed */
+    width: 100%; /* Adjust width as needed */
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
@@ -114,7 +116,6 @@
     justify-content: center;
     flex-direction: column;
     cursor: pointer;
-    margin-inline: auto;
   }
   
   .arrow {
@@ -130,6 +131,24 @@
     font-size: 14px;
     margin-top: 5px;
   }
+  .col-lg-3 button{
+    border: none;
+    background-color: transparent;
+    margin-inline: auto;
+  }
+  .back-to-top-button{
+    border: none;
+    background-color: transparent;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (max-width: 992px) {
+    /* Add your styles for smaller screens here */
+    .container {
+      
+    }
+}
 
 
 
