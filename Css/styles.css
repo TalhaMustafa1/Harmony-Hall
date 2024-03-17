@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section-selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+
+.section-selection button {
+    background-color: transparent !important;
+    font-size: 45px;
+    font-weight: 500;
+    margin-inline:  auto;
+    border: none; /* Changed margin to use shorthand for better compatibility */
+}
+
+.section-selection::after {
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+.main-homePage{
+    width: 80%;
+    margin:5% auto;
+}
+.main-homePage h1{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.main-homePage p{
+    font-size: 25px;
+}
+.button-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-block: 40px;
+}
+.button-group button{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.card {
+    position: relative;
+    width: 300px; /* Adjust width as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+     /* Semi-transparent background */
+    color: black;
+    padding: 15px;
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.card-text h4 {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-text p {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+
+
+
