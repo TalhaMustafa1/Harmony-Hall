@@ -13,12 +13,14 @@
     height: 100vh;
 }
 
-.section-selection button {
-    background-color: transparent !important;
+.section-selection a {
     font-size: 45px;
     font-weight: 500;
     margin-right:auto;
     border: none;
+    text-decoration: none !important;
+    color: black !important;
+    margin-inline: auto;
 
  /* Changed margin to use shorthand for better compatibility */
 }
@@ -172,17 +174,18 @@ a{
         overflow: hidden;
         margin-bottom: 40px;
     }
-    .section-selection button {
+    .section-selection a {
         margin-right: 0; /* Reset margin for small screens */
         margin-left: 0; /* Reset margin for small screens */
     }
 
-    .section-selection button {
+    .section-selection a {
         background-color: transparent !important;
         font-size: 25px;
         font-weight: 500;
         margin-right:auto;
         border: none;
+        margin-inline: auto;
     
      /* Changed margin to use shorthand for better compatibility */
     }
