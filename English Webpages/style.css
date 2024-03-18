@@ -135,6 +135,14 @@ main p{
 .photo-heading img{
     width: 40%;
 }
+nav a{
+    background-color: black;
+    color: white !important;
+    text-decoration: none !important;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin-inline: auto;
+}
   @media screen and (max-width: 991px) {
     main h1{
         font-size: 35px;
