@@ -111,15 +111,16 @@ main p{
 .next-story-section a{
     text-decoration: none;
 }
-.story3 .breastfeed-row{
+ .breastfeed-row{
     margin-block: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.story3 .breastfeed-row img{
+ .breastfeed-row img{
     width: 40%;
 }
+
 .story4 h6{
     font-size: 25px;
     font-weight: bold;

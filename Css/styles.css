@@ -19,6 +19,7 @@
     font-weight: 500;
     margin-right:auto;
     border: none;
+
  /* Changed margin to use shorthand for better compatibility */
 }
 
@@ -160,6 +161,20 @@
         border-radius: 5px;
         overflow: hidden;
         margin-bottom: 40px;
+    }
+    .section-selection button {
+        margin-right: 0; /* Reset margin for small screens */
+        margin-left: 0; /* Reset margin for small screens */
+    }
+
+    .section-selection button {
+        background-color: transparent !important;
+        font-size: 25px;
+        font-weight: 500;
+        margin-right:auto;
+        border: none;
+    
+     /* Changed margin to use shorthand for better compatibility */
     }
 }
 
