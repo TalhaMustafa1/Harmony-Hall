@@ -126,6 +126,15 @@ main p{
     font-size: 25px;
     font-weight: bold;
 }
+.photo-heading{
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    margin-block:80px;
+}
+.photo-heading img{
+    width: 40%;
+}
   @media screen and (max-width: 991px) {
     main h1{
         font-size: 35px;
