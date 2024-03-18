@@ -53,13 +53,17 @@
     margin-block: 40px;
 }
 
-.button-group button{
+.button-group a{
     background-color: black;
     color: white;
     font-size: 16px;
     border-radius: 20px;
     padding: 10px 15px;
     font-weight: bold;
+    text-decoration: none !important;
+}
+.button-group a:visited {
+    color: white; /* Change color of visited links to white */
 }
 .card {
     height: 330px;
@@ -143,6 +147,12 @@
     margin-bottom: 0;
     font-size: 18px;
     font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+.card-section a{
+    text-decoration: none !important;
 }
   @media screen and (max-width: 992px) {
     /* Add your styles for smaller screens here */

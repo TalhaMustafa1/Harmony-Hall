@@ -68,8 +68,9 @@ main p{
   .next-story-section img{
     width: 40%;
   }
-  .next-story-section a{
-    text-decoration: none;
+   a{
+    text-decoration: none !important;
+    color:black !important;
   }
 
   .story2 .second-part h3{
