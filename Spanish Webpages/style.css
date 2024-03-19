@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    margin-block: 70px;
+}
+main h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+main p{
+    font-size: 35px;
+}
+.hero-part{
+    display: flex;
+    justify-content:space-between;
+}
+.hero-part img{
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+.second-part{
+    margin-block: 60px;
+}
+.second-part h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.second-part p{
+    font-size: 20px;
+}
+.second-part .row{
+    justify-content: space-between;
+    margin-block: 20px;
+}
+.second-part .row p{
+    font-size: 18px;
+}
+.second-part img{
+    width: 100%;
+}
+.third-section p{
+    font-size: 35px;
+    font-weight: bold;
+    width: 50%;
+    margin-block: 40px;
+}
+.third-section img{
+    width: 80%;
+    height: 30%;
+}
+.arrow {
+    font-size: 50px;
+    margin: 0;
+    padding: 0; 
+    width: 200px;/* Adjust the font size to increase the size of the arrow */
+  }
+  .next-story-section{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: transparent;
+    border: none;
+  }
+  .next-story-section img{
+    width: 40%;
+  }
+   a{
+    text-decoration: none !important;
+    color:black !important;
+  }
+
+  .story2 .second-part h3{
+      font-size: 40px;
+      width: 40%;
+      font-weight: bold;
+  }
+  .story2  .image-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.story2  .card-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+ .story2 .card {
+    width: 200px; /* Adjust width as needed */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    background-color: #121f60;
+    border: none;
+    color: white;
+}
+.story2 h6{
+    font-size: 20px;
+    font-weight: bold;
+} 
+.next-story-section a{
+    text-decoration: none;
+}
+ .breastfeed-row{
+    margin-block: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .breastfeed-row img{
+    width: 40%;
+}
+
+.story4 h6{
+    font-size: 25px;
+    font-weight: bold;
+}
+.photo-heading{
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    margin-block:80px;
+}
+.photo-heading img{
+    width: 40%;
+}
+nav a{
+    background-color: black;
+    color: white !important;
+    text-decoration: none !important;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin-inline: auto;
+}
+  @media screen and (max-width: 991px) {
+    main h1{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .second-part h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .hero-part{
+        flex-direction: column;
+    }
+    .third-section p{
+        font-size: 30px;
+        font-weight: bold;
+        width: 100%;
+        margin-block: 40px;
+    }
+    .next-story-section{
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        background-color: transparent;
+        border: none;
+        flex-direction: column;
+      }
+      .hero-part img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .next-story-section img{
+        width:100%;
+      }
+      .row{
+        gap:60px;
+      }
+      .second-part p{
+        font-size: 16px;
+    }
+    .card-container {
+        position: relative; /* Change position to relative for stacking on smaller screens */
+        top: auto;
+        left: auto;
+        margin-top: 20px;
+        
+        /* Adjust margin as needed */
+    }
+
+    .card {
+        width: 80%; /* Adjust width for smaller screens */
+    }
+    .image-section img{
+        height: 100%;
+    }
+    .image-section{
+        height: 800px;
+    }
+    .story3 .breastfeed-row{
+        margin-block: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .story3 .breastfeed-row img{
+        width: 100%;
+    }
+    .photo-heading{
+        display: flex;
+        flex-direction: column;   
+        align-items: center;
+        margin-block:80px;
+    }
+    .photo-heading img{
+        width: 100%;
+    }
+  }
+  
+
