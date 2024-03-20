@@ -143,6 +143,7 @@ nav a{
     padding: 10px 15px;
     margin-inline: auto;
 }
+
   @media screen and (max-width: 991px) {
     main h1{
         font-size: 35px;
