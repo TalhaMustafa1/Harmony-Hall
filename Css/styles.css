@@ -190,6 +190,12 @@ a{
     
      /* Changed margin to use shorthand for better compatibility */
     }
+
+
+       .navbar img{
+              width: 100px;
+              height: 50px;
+       }
 }
 
 
