@@ -52,6 +52,7 @@ main p{
     width: 80%;
     height: 30%;
 }
+
 .arrow {
     font-size: 50px;
     margin: 0;
@@ -222,5 +223,7 @@ nav a{
         width: 100%;
     }
   }
+
+ 
   
 
